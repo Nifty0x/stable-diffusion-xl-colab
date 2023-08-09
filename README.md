@@ -1,3 +1,11 @@
+#Update August 9, 2023
+
+Fine-tuning Stable Diffusion XL with DreamBooth and LoRA on a T4 GPU
+
+SDXL consists of a much larger UNet and two text encoders that make the cross-attention context quite larger than the previous variants. So, to pull this off, you need to use some "tricks" such as gradient checkpointing, mixed-precision, and 8-bit Adam.
+
+
+
 # Stable Diffusion XL - Colab
 
 The goal of this repository is to provide a Colab notebook to run the text-to-image ["Stable Diffusion XL"][huggingface-latest-weights] model [1].
