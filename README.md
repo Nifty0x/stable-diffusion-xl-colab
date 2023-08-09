@@ -1,4 +1,4 @@
-#Update August 9, 2023
+# Update August 9, 2023
 
 Fine-tuning Stable Diffusion XL with DreamBooth and LoRA on a T4 GPU
 
